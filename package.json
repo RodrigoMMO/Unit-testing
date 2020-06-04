@@ -21,5 +21,8 @@
   "homepage": "https://github.com/AnthonyLzq/jest-test#readme",
   "devDependencies": {
     "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "is-number": "^7.0.0"
   }
 }

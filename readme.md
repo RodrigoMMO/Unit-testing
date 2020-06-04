@@ -1,6 +1,6 @@
 # Testing Jest
 
-A basic unit testing using [`Jest`](https://jestjs.io/en/). Here we will be testing a simple addition located in the `src/sum.js` file, using the `src/sum.test.js` file, as it is shown in the [Jest documentation](https://jestjs.io/docs/en/getting-started).
+A basic unit testing using [`Jest`](https://jestjs.io/en/). Here we will be testing and addition and root operation located in the `src/sum.js` and `src/root.js` files, respectively, using the `src/project.test.js` file, as it is shown in the [Jest documentation](https://jestjs.io/docs/en/getting-started).
 
 ## Getting Started
 
@@ -29,13 +29,19 @@ This will display the following in your console if everything went well:
 ```console
 yarn run v1.22.4
 $ jest
- PASS  src/sum.test.js
+ PASS  src/project.test.js
   ✓ adds 1 + 2 to equal 3 (4 ms)
+  ✓ 2nd root of -4 (1 ms)
+  ✓ 3rd root of -8 (1 ms)
+  ✓ 3rd root of 8
+  ✓ 2nd root of 9 (1 ms)
+  ✓ 0th root of 9
+  ✓ 2nd root of 0 (1 ms)
 
 Test Suites: 1 passed, 1 total
-Tests:       1 passed, 1 total
+Tests:       7 passed, 7 total
 Snapshots:   0 total
-Time:        1.081 s
+Time:        1.618 s
 Ran all test suites.
-Done in 1.98s.
+Done in 2.66s.
 ```

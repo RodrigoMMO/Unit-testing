@@ -1,10 +1,12 @@
 {
   "name": "testing-jest",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "Testing jest for software engineer course",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "homework:mock": "jest src/homework/mock.test",
+    "homework:root": "jest src/homework/root.test",
+    "test": "jest src/project.test"
   },
   "repository": {
     "type": "git",
@@ -20,9 +22,12 @@
   },
   "homepage": "https://github.com/AnthonyLzq/jest-test#readme",
   "devDependencies": {
-    "jest": "^26.0.1"
+    "faker": "^4.1.0",
+    "jest": "^26.0.1",
+    "random": "^2.2.0"
   },
   "dependencies": {
-    "is-number": "^7.0.0"
+    "is-number": "^7.0.0",
+    "mathjs": "^7.0.1"
   }
 }

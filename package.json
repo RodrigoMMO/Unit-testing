@@ -1,6 +1,6 @@
 {
   "name": "testing-jest",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Testing jest for software engineer course",
   "main": "index.js",
   "scripts": {

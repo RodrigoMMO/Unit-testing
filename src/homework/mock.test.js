@@ -33,7 +33,7 @@ test('Update element from database', () => {
 test('Delete element from database', () => {
   const deletedUser = dbc.delete()
   console.log(`Deleted user: ${deletedUser}`)
-  console.log(dbc.databaseSize())
+  console.log('Database size after deleting the user: ' + dbc.databaseSize())
   expect(deletedUser).toBeInstanceOf(MockUser)
 })
 
